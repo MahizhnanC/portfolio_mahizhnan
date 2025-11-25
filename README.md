@@ -125,7 +125,7 @@ Replace project images in `Projects.jsx` with your own:
 image: 'your-image-url.jpg'
 ```
 
-## ⚙️ Performance Features
+##  Performance Features
 
 ### Code Splitting
 Automatic vendor chunk splitting in `vite.config.js`:
@@ -223,50 +223,3 @@ Optimized for Core Web Vitals:
 - **FID** (First Input Delay) < 100ms
 - **CLS** (Cumulative Layout Shift) < 0.1
 
-##  Browser Support
-
-- Chrome (last 2 versions)
-- Firefox (last 2 versions)
-- Safari (last 2 versions)
-- Edge (last 2 versions)
-
-##  License
-
-MIT License - feel free to use this project for your own portfolio!
-
-##  Contributing
-
-Contributions are welcome! Feel free to:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-##  Tips
-
-### Performance
-- Keep particle count under 50 for mobile
-- Use WebP images when possible
-- Lazy load below-the-fold content
-- Minimize animation complexity on scroll
-
-### Accessibility
-- Test with screen readers (NVDA, JAWS)
-- Ensure keyboard navigation works
-- Maintain color contrast ratios
-- Add alt text to all images
-
-### SEO
-- Update meta tags in `index.html`
-- Add Open Graph tags
-- Create a sitemap
-- Use semantic HTML
-
-##  Contact
-
-For questions or feedback, reach out at: contact@example.com
-
----
-
-Built with  using React, Tailwind CSS, and Framer Motion
