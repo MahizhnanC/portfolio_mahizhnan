@@ -2,9 +2,8 @@
 
 A high-performance, accessible React portfolio SPA featuring interactive mouse/scroll effects, built with React, Tailwind CSS, and Framer Motion.
 
-![Portfolio Preview](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=600&fit=crop)
 
-## ✨ Features
+##  Features
 
 ### Interactive Effects
 - **Custom Cursor Blob** - Smooth, blend-mode cursor with hover interactions
@@ -14,18 +13,18 @@ A high-performance, accessible React portfolio SPA featuring interactive mouse/s
 - **Smooth Parallax** - Subtle parallax effects throughout
 
 ### Performance Optimizations
-- ⚡ **Lazy Loading** - Images and heavy components load on demand
-- 📦 **Code Splitting** - Vendor chunks separated for optimal caching
-- 🎯 **Optimized Animations** - GPU-accelerated transforms, reduced on mobile
-- 🔄 **Request Animation Frame** - Efficient animation loops
-- 📱 **Mobile-First** - Reduced particle count and effects on mobile devices
+-  **Lazy Loading** - Images and heavy components load on demand
+-  **Code Splitting** - Vendor chunks separated for optimal caching
+-  **Optimized Animations** - GPU-accelerated transforms, reduced on mobile
+-  **Request Animation Frame** - Efficient animation loops
+-  **Mobile-First** - Reduced particle count and effects on mobile devices
 
 ### Accessibility & Best Practices
-- ♿ **ARIA Labels** - Comprehensive screen reader support
-- ⌨️ **Keyboard Navigation** - Full keyboard accessibility
-- 📱 **Responsive Design** - Mobile-friendly layouts (320px+)
-- 🎨 **High Contrast** - WCAG AA compliant color ratios
-- 🔍 **SEO Optimized** - Semantic HTML and meta tags
+-  **ARIA Labels** - Comprehensive screen reader support
+-  **Keyboard Navigation** - Full keyboard accessibility
+-  **Responsive Design** - Mobile-friendly layouts (320px+)
+-  **High Contrast** - WCAG AA compliant color ratios
+-  **SEO Optimized** - Semantic HTML and meta tags
 
 ### Tech Stack
 - **React 18** - Latest React with concurrent features
@@ -35,7 +34,7 @@ A high-performance, accessible React portfolio SPA featuring interactive mouse/s
 - **Vitest** - Fast unit testing
 - **Lucide React** - Beautiful icons
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -62,7 +61,7 @@ npm test
 npm run test:ui
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 portfolio/
@@ -98,7 +97,7 @@ portfolio/
 └── package.json                    # Dependencies
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Colors
 Edit `tailwind.config.js` to customize the color scheme:
@@ -154,7 +153,7 @@ Images load with native lazy loading:
 - Disables custom cursor on touch devices
 - Intersection Observer for scroll reveals
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 ```bash
@@ -169,7 +168,7 @@ Tests cover:
 - Accessibility features
 - Animation behaviors
 
-## 🏗️ Building for Production
+##  Building for Production
 
 ```bash
 npm run build
@@ -192,7 +191,7 @@ dist/
 └── index.html
 ```
 
-## 🚢 Deployment
+## Deployment
 
 ### Vercel
 ```bash
@@ -217,25 +216,25 @@ Then build and deploy:
 npm run build
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 Optimized for Core Web Vitals:
 - **LCP** (Largest Contentful Paint) < 2.5s
 - **FID** (First Input Delay) < 100ms
 - **CLS** (Cumulative Layout Shift) < 0.1
 
-## 🔧 Browser Support
+##  Browser Support
 
 - Chrome (last 2 versions)
 - Firefox (last 2 versions)
 - Safari (last 2 versions)
 - Edge (last 2 versions)
 
-## 📝 License
+##  License
 
 MIT License - feel free to use this project for your own portfolio!
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 1. Fork the repository
@@ -244,7 +243,7 @@ Contributions are welcome! Feel free to:
 4. Push to the branch
 5. Open a Pull Request
 
-## 💡 Tips
+##  Tips
 
 ### Performance
 - Keep particle count under 50 for mobile
@@ -264,10 +263,10 @@ Contributions are welcome! Feel free to:
 - Create a sitemap
 - Use semantic HTML
 
-## 📧 Contact
+##  Contact
 
 For questions or feedback, reach out at: contact@example.com
 
 ---
 
-Built with ❤️ using React, Tailwind CSS, and Framer Motion
+Built with  using React, Tailwind CSS, and Framer Motion
