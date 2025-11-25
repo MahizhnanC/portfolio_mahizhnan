@@ -5,18 +5,18 @@ const About = () => {
   const features = [
     {
       icon: <Code size={32} />,
-      title: 'Clean Code',
-      description: 'Writing maintainable, scalable, and well-documented code following best practices.',
+      title: 'Security First',
+      description: 'Building intrusion detection systems and analyzing network traffic for threats.',
     },
     {
       icon: <Palette size={32} />,
-      title: 'Beautiful Design',
-      description: 'Creating stunning user interfaces with attention to detail and user experience.',
+      title: 'CTF Player',
+      description: 'Solving challenges in web exploitation, cryptography, and reverse engineering.',
     },
     {
       icon: <Zap size={32} />,
-      title: 'Performance',
-      description: 'Optimizing for speed and efficiency to deliver fast, responsive applications.',
+      title: 'Full-Stack Dev',
+      description: 'Creating robust backend systems with Python, Java, Django, and Spring Boot.',
     },
   ]
 
@@ -34,7 +34,7 @@ const About = () => {
             About <span className="text-gradient">Me</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            I'm a passionate web developer focused on building exceptional digital experiences.
+            3rd-year CSE student specializing in Cybersecurity and Blockchain at SASTRA University.
           </p>
         </motion.div>
 
@@ -46,15 +46,12 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="glass rounded-2xl p-8 h-full">
-              <h3 className="text-2xl font-bold mb-4 text-primary-400">My Story</h3>
+              <h3 className="text-2xl font-bold mb-4 text-primary-400">My Journey</h3>
               <p className="text-gray-300 mb-4">
-                With a passion for creating intuitive and engaging web experiences, I specialize in
-                modern web technologies and frameworks. My journey in web development has been driven
-                by curiosity and a constant desire to learn and improve.
+                I'm Mahizhnan, a 3rd-year Computer Science Engineering student at SASTRA, specializing in Cybersecurity and Blockchain. I work on both defensive security (like NIDS) and full-stack software projects. I'm also an active CTF participant and a former core member of the 1nf1n1ty security team.
               </p>
               <p className="text-gray-300">
-                I believe in writing clean, maintainable code and creating applications that not only
-                look great but also perform exceptionally well across all devices and platforms.
+                I work across Python, Java, Django, Spring Boot, SQL, and MongoDB, and I enjoy building tools that combine security + development.
               </p>
             </div>
           </motion.div>

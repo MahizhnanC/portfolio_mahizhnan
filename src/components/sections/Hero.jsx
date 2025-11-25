@@ -36,11 +36,14 @@ const Hero = () => {
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-gradient">
-              Hi, I'm a Web Developer
+              Hi, I'm Mahizhnan.
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Creating beautiful, performant, and accessible web experiences with modern technologies
+          <p className="text-xl md:text-2xl text-gray-300 mb-4 max-w-3xl mx-auto">
+            Cybersecurity Enthusiast • Full-Stack Developer • CTF Player
+          </p>
+          <p className="text-lg md:text-xl text-gray-400 mb-8 max-w-3xl mx-auto">
+            3rd-year CSE student building security systems, solving CTFs, and creating real-world software projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -51,17 +54,23 @@ const Hero = () => {
                 document.querySelector('#projects')?.scrollIntoView({ behavior: 'smooth' })
               }}
             >
-              View My Work
+              View Projects
             </a>
             <a
-              href="#contact"
+              href="https://github.com/MahizhnanC"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 glass hover:bg-white/10 text-white rounded-lg transition-colors duration-300 font-semibold"
-              onClick={(e) => {
-                e.preventDefault()
-                document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })
-              }}
             >
-              Get In Touch
+              GitHub
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mahizhnanc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-8 py-3 glass hover:bg-white/10 text-white rounded-lg transition-colors duration-300 font-semibold"
+            >
+              LinkedIn
             </a>
           </div>
         </motion.div>

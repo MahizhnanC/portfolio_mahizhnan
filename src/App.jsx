@@ -4,8 +4,9 @@ import ParticleHero from './components/effects/ParticleHero'
 import ScrollReveal from './components/effects/ScrollReveal'
 import Hero from './components/sections/Hero'
 import About from './components/sections/About'
-import Projects from './components/sections/Projects'
 import Skills from './components/sections/Skills'
+import Experience from './components/sections/Experience'
+import Projects from './components/sections/Projects'
 import Contact from './components/sections/Contact'
 import Navigation from './components/Navigation'
 import Footer from './components/Footer'
@@ -31,6 +32,10 @@ function App() {
         
         <ScrollReveal>
           <Skills />
+        </ScrollReveal>
+        
+        <ScrollReveal>
+          <Experience />
         </ScrollReveal>
         
         <ScrollReveal>

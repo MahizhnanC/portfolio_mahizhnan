@@ -48,7 +48,7 @@ const Contact = () => {
             Get In <span className="text-gradient">Touch</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a project in mind or want to collaborate? Let's talk!
+            Let's connect! Reach out for cybersecurity projects, CTF discussions, or collaborations.
           </p>
         </motion.div>
 
@@ -90,8 +90,7 @@ const Contact = () => {
               <div className="mt-8 pt-8 border-t border-gray-700">
                 <h4 className="font-semibold mb-4">Let's Connect</h4>
                 <p className="text-gray-400 mb-6">
-                  I'm always interested in hearing about new projects and opportunities.
-                  Whether you have a question or just want to say hi, feel free to reach out!
+                  Open to cybersecurity internships, full-stack development opportunities, and CTF collaborations. Feel free to reach out for project discussions or security research!
                 </p>
               </div>
             </div>

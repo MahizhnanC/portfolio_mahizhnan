@@ -3,33 +3,34 @@ import { motion } from 'framer-motion'
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend',
+      title: 'Cybersecurity',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'JavaScript/ES6+', level: 95 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'HTML/CSS', level: 95 },
-        { name: 'Tailwind CSS', level: 90 },
+        { name: 'Network Security', level: 85 },
+        { name: 'Packet Analysis (Wireshark)', level: 80 },
+        { name: 'Intrusion Detection', level: 75 },
+        { name: 'Reverse Engineering (Ghidra)', level: 70 },
+        { name: 'Web Exploitation', level: 80 },
+        { name: 'CTF Challenges', level: 85 },
       ],
     },
     {
-      title: 'Backend',
+      title: 'Backend Development',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Express', level: 80 },
+        { name: 'Python (Django)', level: 90 },
+        { name: 'Java (Spring Boot)', level: 85 },
         { name: 'REST APIs', level: 90 },
-        { name: 'MongoDB', level: 75 },
-        { name: 'PostgreSQL', level: 70 },
+        { name: 'Authentication Systems', level: 80 },
+        { name: 'MVC Architecture', level: 85 },
       ],
     },
     {
-      title: 'Tools & Others',
+      title: 'Databases & Tools',
       skills: [
+        { name: 'SQL (MySQL, PostgreSQL)', level: 85 },
+        { name: 'MongoDB', level: 80 },
         { name: 'Git/GitHub', level: 90 },
-        { name: 'Vite/Webpack', level: 85 },
-        { name: 'Jest/Vitest', level: 80 },
-        { name: 'Responsive Design', level: 95 },
-        { name: 'Performance Optimization', level: 85 },
+        { name: 'Kali Linux', level: 85 },
+        { name: 'C/C++', level: 75 },
       ],
     },
   ]
